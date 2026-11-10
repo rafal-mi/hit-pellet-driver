@@ -1182,6 +1182,46 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 64.77 118.11) (xy 128.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10308b3e-b75e-4c6b-82c5-54fe887231c1")
+	)
+	(wire
+		(pts
+			(xy 64.77 31.75) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3405c39e-1592-458e-b4a4-7d80323bd97d")
+	)
+	(wire
+		(pts
+			(xy 40.64 31.75) (xy 57.15 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94da0bb4-cd7e-47ab-92f2-919f8e179946")
+	)
+	(wire
+		(pts
+			(xy 40.64 69.85) (xy 40.64 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6353470-1237-43f0-b17e-f1bb713b1f9e")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 57.15 48.26 0)
@@ -1254,7 +1294,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 60.96 31.75 0)
+		(at 60.96 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1263,25 +1303,23 @@
 		(fields_autoplaced yes)
 		(uuid "23d239e1-b527-4000-a097-de33c9210772")
 		(property "Reference" "R2"
-			(at 63.5 30.4799 0)
+			(at 60.96 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 63.5 33.0199 0)
+		(property "Value" "330"
+			(at 60.96 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 59.182 31.75 90)
+			(at 60.96 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,16 +1508,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 83.82 124.46 0)
+		(at 35.56 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "673f73c1-abca-4865-b940-83eb95ecb6a0")
 		(property "Reference" "J1"
-			(at 84.455 119.38 0)
+			(at 36.195 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1524,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 84.455 121.92 0)
+			(at 36.195 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 124.46 0)
+			(at 35.56 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 124.46 0)
+			(at 35.56 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1550,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 83.82 124.46 0)
+			(at 35.56 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
