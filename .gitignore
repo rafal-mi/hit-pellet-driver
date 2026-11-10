@@ -1,0 +1,24 @@
+# KiCad backup and temporary files
+*.bak
+*.kicad_prl
+*-bak.kicad_sch
+*-bak.kicad_pcb
+*.bck
+*.dcm
+
+# KiCad simulation and report files
+*.net
+*.xml
+*.log
+*.erc
+*.drc
+*.rpt
+
+# Local workspace directories
+.kicad_wks/
+_autosave-*/
+
+*.lck
+
+*-backups/
+
